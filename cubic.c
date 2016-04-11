@@ -133,6 +133,7 @@ int main(int argc, char** argv){
     glutIdleFunc(animation);
     glutKeyboardFunc( keyboard );
     initialize();
+    glEnable(GL_CULL_FACE);
     glutMainLoop();
     return 0;
 }
